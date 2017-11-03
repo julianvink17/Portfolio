@@ -1,0 +1,322 @@
+body {
+    background-image: url("img/nature5.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+.content {
+
+    width: 1600px;
+    height: 832px;
+    opacity: 1;
+    margin: 0;
+}
+
+ h1{
+    width: 25%;
+    margin:0;
+     position:absolute;
+    left: 640px;
+    top: 5px;
+    font-family: "Lucida Sans" ,sans-serif;
+    font-size: 80px; text-shadow: 3px 3px black;
+    color: #ffffff;
+    animation-name: h1;
+     animation-duration: 6s;
+     animation-timing-function: linear;
+}
+
+@keyframes h1 {
+    0% {left: 480px; top: 300px; font-size: 150px;}
+    25%{left: 480px; top: 300px; font-size: 150px;}
+    50%{left: 480px; top: 300px; font-size: 150px;}
+    75%{left: 640px; top: 5px; font-size: 80px;}
+    100%{left: 640px; top: 5px; font-size: 80px;}
+}
+
+.borderbottom{
+    width: 600px;
+    left: 520px;
+    border-bottom: solid; color: white;
+    position:absolute;
+    top: 100px;
+    box-shadow: 2px 2px 2px grey;
+    animation-name: border-bottom; animation-duration: 6s;
+    animation-timing-function: linear;
+}
+@keyframes border-bottom {
+0% {border-bottom: solid 6px; width: 1000px; opacity: 0; left: -1100px; top: 550px;}
+25% {border-bottom: solid 6px; width: 1000px; opacity: 1; left: 310px; top: 550px;}
+50% {border-bottom: solid 6px; width: 1000px; opacity: 1; left: 310px; top: 550px;}
+75%  {border-bottom: solid; top: 100px; width: 600px; opacity: 1; left: 520px}
+100% {border-bottom: solid; top: 100px; width: 600px; opacity: 1; left: 520px}
+}
+.bordertop{
+    width: 1000px;
+    left: 313px;
+    border-top: solid; color: white; opacity: 0;
+    position:absolute;
+    top: 250px;
+    box-shadow: 2px 2px 2px grey;
+    animation-name: border-top; animation-duration: 6s;
+    animation-timing-function: linear;
+}
+@keyframes border-top {
+    0% {border-top:solid 6px; opacity: 0; left:1700px;top: 250px;}
+    25% {border-top: solid 6px; opacity: 1; left: 316px; top:250px;}
+    50% {border-top: solid 6px; opacity: 0; left: 316px; top:250px;}
+    75% {border-top: solid 6px; opacity: 0; left: 316px; top:250px;}
+    100% {border-top: solid 6px; opacity: 0; left: 3313px; top:3250px;}
+}
+.borderright{
+    height: 100px;
+    left: 520px;
+    border-right: solid;
+    color: white;
+    position:absolute;
+    top: 1px;
+    box-shadow: 2px 2px 2px grey;
+    animation-name: border-right;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+}
+
+@keyframes border-right {
+    0% {top: -400px; height: 300px; border-right: solid 6px; opacity: 0; left: 310px;}
+    25% {border-right: solid 6px; height: 300px; opacity: 1; top: 250px; left: 310px}
+    50% {border-right: solid 6px; height: 300px; opacity: 1; top: 250px; left: 310px;}
+    75% {border-right: solid; height: 100px; opacity: 1; top: 1px; left: 520px;}
+    100% {border-right: solid; height: 100px; opacity: 1; top: 1px; left: 520px;}
+}
+.borderleft{
+    height: 100px;
+    left: 1117px;
+    border-left: solid;
+    color: white;
+    position:absolute;
+    top: 1px;
+    box-shadow: 2px 2px 2px grey;
+    animation-name: border-left;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+}
+
+@keyframes border-left {
+    0% {top: 850px; height: 300px; border-left: solid 6px; opacity: 0; left: 1310px;}
+    25% {border-left: solid 6px; height: 300px; opacity: 1; top: 256px; left: 1310px}
+    50% {border-left: solid 6px; height: 300px; opacity: 1; top: 256px; left: 1310px;}
+    75% {border-left: solid; height: 100px; opacity: 1; top: 1px; left: 1117px;}
+    100% {border-left: solid; height: 100px; opacity: 1; top: 1px; left: 1117px;}
+}
+
+.wie{
+    width: 256px;
+    height: 170px;
+    position: absolute;
+    top: 25%;
+    left: 45%;
+    opacity: 0.7;
+    animation-name: wie;
+    animation-duration: 6s;
+}
+
+@keyframes wie {
+    0% {opacity: 0; top: -100px; width: 0; height: 0;}
+    75%{opacity: 0; top: -100px; width: 0; height: 0;}
+    100%{opacity: 0.7; top: 25%; left: 45%; width: 256px; height: 170px;}
+}
+
+.wie:hover{
+    opacity: 1;
+    width: 260px;
+    height: 174px;
+}
+
+
+.message{
+    width: 128px;
+    height: 128px;
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    opacity: 0.5;
+    animation-name: message;
+    animation-duration: 6.5s;
+}
+
+@keyframes message {
+    0% {opacity: 0; left: -100px; width: 0; height: 0;}
+    75% {opacity: 0; left: -100px; width: 0; height: 0;}
+    100% {opacity: 0.5; left: 20%; top:60%; width: 128px; height: 128px;}
+}
+
+.message:hover{
+    opacity:1;
+    width: 132px;
+    height: 132px;
+}
+
+.ICT{
+    width: 200px;
+    height: 120px;
+    position: absolute;
+    top: 60%;
+    right: 15%;
+    opacity: 0.5;
+    animation-name: ICT;
+    animation-duration: 7s;
+}
+
+@keyframes ICT {
+    0% {opacity: 0; right: -100px; width: 0; height: 0;}
+    75% {opacity: 0; right: -100px; width: 0; height: 0;}
+    100% {opacity: 0.5; right: 15%; top:60%; width: 200px; height: 120px;}
+}
+
+.ICT:hover{
+    opacity: 1;
+    width: 204px;
+    height: 124px;
+}
+
+.container2{
+
+    width: 1600px;
+    height: 820px;
+}
+.container2 h2{
+    margin: 0;
+    font-family: "Lucida Sans" ,sans-serif;
+    font-size: 80px; text-shadow: 4px 4px black;
+    color: #ffffff;
+    position: absolute;
+    left:35%;
+
+}
+::selection {
+    background: #354cae;
+}
+.container3{
+
+    width: 1600px;
+    height: 820px;
+}
+.container3 h2{
+    margin: 0;
+    font-family: "Lucida Sans" ,sans-serif;
+    font-size: 80px; text-shadow: 4px 4px black;
+    color: #ffffff;
+    position: absolute;
+    left:30%;
+}
+
+.container4{
+    width: 1600px;
+    height: 820px;
+
+}
+
+.container4 h2{
+    margin: 0;
+    font-family: "Lucida Sans" ,sans-serif;
+    font-size: 80px; text-shadow: 4px 4px black;
+    color: #ffffff;
+    position: absolute;
+    left: 40%;
+}
+
+
+h3{
+    width: 18%;
+    margin:0;
+    font-family: "Lucida Sans" ,sans-serif;
+    font-size: 20px; text-shadow: 2px 2px black;
+    color: #ffffff;
+    position: fixed;
+    left:81%;
+    top: 0;
+    border: solid;
+    opacity: 0.6;
+    animation-name: h3;
+    animation-duration: 8s;
+    animation-timing-function: ease-out;
+}
+
+@keyframes h3 {
+    0%{left: 2000px; width: 0;}
+    70%{left: 2000px; width: 18%;}
+    95%{left: 81%; width: 18%}
+    100%{left: 81%; width: 18%}
+}
+h3:hover{
+    opacity: 1;
+    font-size: 20.1px;
+}
+.CV{
+    width: 64px;
+    height: 64px;
+    position: fixed;
+    top: 90%;
+    left: 90%;
+    opacity: 0.7;
+    animation-name: CV;
+    animation-duration: 8.2s;
+    animation-timing-function: ease-out;
+}
+@keyframes CV {
+    0%{top: 90%; left:120%; width: 0;}
+    70%{top: 90%; left:120%; width: 64px;}
+    95%{top: 90%; left:90%; width: 64px}
+    100%{top: 90%; left:90%; width: 64px}
+}
+.CV:hover{
+    opacity: 1;
+    width: 68px;
+    height: 68px;
+}
+.container .content p {
+    font-family: "Lucida Sans" ,sans-serif;
+    font-size: 17px; text-shadow: 2px 2px black;
+    color: #ffffff;
+    position: fixed;
+    top: 89%;
+    left: 94.25%;
+    opacity: 0.7;
+    animation-name: p;
+    animation-duration: 8.3s;
+    animation-timing-function: ease-out;
+}
+
+@keyframes p {
+    0%{top: 89%; left:120%;}
+    70%{top: 89%; left:120%;}
+    95%{top: 89%; left:94.25%;}
+    100%{top: 89%; left:94.25%;}
+}
+
+.CVborder{
+    border-top:solid transparent;
+    width: 100px;
+    position: fixed;
+    top:89%;
+    left: 90%;
+    opacity: 0.7;
+    padding: 20px;
+}
+.CVborder:hover{
+    opacity: 1;
+}
+.container2 .container2p p{
+    margin: 0;
+    font-family: "Lucida Sans" ,sans-serif;
+    font-size: 40px; text-shadow: 2px 2px black;
+    color: #ffffff;
+    position: absolute;
+    top: 130%;
+    text-align: center;
+    padding-right: 300px;
+    padding-left: 300px;
+}
+
+
+
