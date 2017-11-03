@@ -3,7 +3,20 @@ body {
     background-size: cover;
     background-attachment: fixed;
     margin: 0;
+    opacity: 0.8;
 }
+
+.cover{
+    background: url("img/cover.jpg");
+    background-attachment: fixed;
+    width: 100%;
+    height: 303%;
+    background-size: cover;
+    position: absolute;
+    opacity: 0.3;
+    margin: 0;
+}
+
 .content {
 
     width: 1600px;
@@ -194,7 +207,8 @@ body {
 
 }
 ::selection {
-    background: #354cae;
+    background: rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 255, 0.6);
 }
 .container3{
 
@@ -295,7 +309,7 @@ h3:hover{
 }
 
 .CVborder{
-    border-top:solid transparent;
+    border-top:transparent;
     width: 100px;
     position: fixed;
     top:89%;
@@ -311,11 +325,15 @@ h3:hover{
     font-family: "Lucida Sans" ,sans-serif;
     font-size: 40px; text-shadow: 2px 2px black;
     color: #ffffff;
+    text-align: center;
     position: absolute;
     top: 130%;
-    text-align: center;
-    padding-right: 300px;
-    padding-left: 300px;
+    left: 330px;
+    width: 950px;
+    border:solid #547fdc;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: rgba(0,0,255,0.2)
 }
 
 
